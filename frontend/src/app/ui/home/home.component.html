@@ -1,0 +1,53 @@
+<section class="row m-0 pt-4">
+
+    <div class="col-12 col-xl-6">
+        <span>
+            <b class="text-muted">
+                {{'APP.HOME-COMPONENT.DATA-ANALYZED' | translate}}
+            </b>
+        </span>
+
+        <div class="row pt-4 pb-4">
+            <div class="col-6 col-md-3">
+                <app-gauge color="#ff5722" gaugeValue="75k" label="Patents"></app-gauge>
+            </div>
+            <div class="col-6 col-md-3">
+                <app-gauge color="#1ea1f1" gaugeValue=">3k" label="Models"></app-gauge>
+              
+            </div>
+            <div class="col-6 col-md-3">
+                <app-gauge color="#5861b4" gaugeValue="150m" label="Abstracts"></app-gauge>
+            </div>
+            <div class="col-6 col-md-3">
+                <app-gauge color="#e59718" gaugeValue="10m" label="Full publication tests"></app-gauge>
+            </div>
+        </div>
+
+        <p>
+            {{'APP.HOME-COMPONENT.DESCRIPTION-FIRST' | translate}}
+        </p>
+        <p>
+            {{'APP.HOME-COMPONENT.DESCRIPTION-SECOND' | translate}}
+        </p>
+    </div>
+
+    <div class="col d-none d-xl-block">
+
+    </div>
+    <div class="col col-xl-5">
+        <div class="row ml-0 mr-0">
+            <div class="col-12 about-intelcomp p-0">
+                <div class="col-12 pt-3">
+                    <h4>{{'APP.HOME-COMPONENT.ABOUT-INTELCOMP' | translate}}</h4>
+                    <p>{{'APP.HOME-COMPONENT.ABOUT-INTELCOMP-DESCRIPTION' | translate}}</p>
+                </div>
+            </div>
+        
+        </div>
+        <div class="service-cards-container mt-3">
+            <app-service-card [href]="service.href" [title]="service.title | translate" *ngFor="let service of services" [imgSrc]="service.img" [description]="service.description | translate"></app-service-card>
+        </div>
+    </div>
+
+
+</section>

@@ -1,0 +1,20 @@
+<div class="service-card">
+    <div class="card-content">
+        <h4>{{title}}</h4>
+        
+        <div class="row justify-content-center" *ngIf="imgSrc">
+            <div class="col-auto">
+                <img [src]="imgSrc" class="img img-fluid" alt="">
+            </div>
+        </div>
+        <p>{{description}}</p>
+    </div>
+    <a class="service-card-link" [href]="href" target="_blank">
+        <span>
+            {{'APP.HOME-COMPONENT.SERVICE-CARD.VISIT-SERVICE' | translate}}
+        </span>
+        <mat-icon>
+            arrow_right_alt
+        </mat-icon>
+    </a>
+</div>

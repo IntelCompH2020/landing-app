@@ -1,0 +1,51 @@
+<svg viewBox="0 0 230 280" [ngStyle]="{color: color}">
+	<defs>
+		<linearGradient id="spinner-secondHalf">
+			<stop offset="0%" stop-color="currentColor" stop-opacity="0"/>
+			<stop offset="100%" stop-color="currentColor" stop-opacity="0.5" />
+		</linearGradient>
+		<linearGradient [id]="'spinner-firstHalf'">
+			<stop offset="0%" stop-opacity="1" stop-color="currentColor" />
+			<stop offset="100%" stop-opacity="0.5" stop-color="currentColor" />
+		</linearGradient>
+	</defs>
+
+	<g
+		stroke-width="30"
+		fill="transparent"
+		transform="rotate(-90) translate(-20, 20)"
+		transform-origin="96 96"
+	>
+		<path
+			stroke="url(#spinner-firstHalf)"
+			d="M 4 100 A 96 96 0 0 1 196 100"
+		/>
+		<path
+			stroke="url(#spinner-secondHalf)"
+			d="M 196 100 A 96 96 0 0 1 4 100"
+		/>
+	</g>
+
+	<text
+		x="120"
+		y="115"
+		font-size="2rem"
+		fill="currentColor"
+		dominant-baseline="middle"
+		text-anchor="middle"
+		font-weight="bold"
+	>
+		{{gaugeValue}}
+	</text>
+	<text
+		x="120"
+		y="250"
+		font-size="1.4rem"
+		fill="currentColor"
+		dominant-baseline="middle"
+		text-anchor="middle"
+		font-weight="bold"
+	>
+		{{label}}
+	</text>
+</svg>
