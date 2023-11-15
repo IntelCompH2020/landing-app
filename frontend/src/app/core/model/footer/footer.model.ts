@@ -1,6 +1,6 @@
 export interface FooterUrls{
     twitter: string;
-    facebook: string;
+    linkedin: string;
     termsOfUse: string;
     privacyPolicy: string;
 }

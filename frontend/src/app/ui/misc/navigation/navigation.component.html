@@ -116,14 +116,14 @@
 				translate}}</button>
 		</mat-menu>
 	</div> -->
-	<div class="col-auto"
+	<!-- <div class="col-auto"
 		*ngIf="isAuthenticated() && authService.hasPermission(authService.permissionEnum.ViewInAppNotificationPage)">
 		<button id="notification-button" color="primary" mat-raised-button matTooltip="{{'APP.NAVIGATION.INAPP-NOTIFICATIONS' | translate}}"
 			(click)="toggleInAppNotifications()">
 			<mat-icon [matBadge]="inAppNotificationCount" [matBadgeHidden]="inAppNotificationCount <= 0"
 				matBadgeColor="warn">notifications</mat-icon>
 		</button>
-	</div>
+	</div> -->
 	<div *ngIf="isAuthenticated() else login" class="col-auto pr-0">
 		<div class="row align-items-center">
 			<div class="col-auto p-0">
@@ -146,8 +146,8 @@
 					<mat-icon>keyboard_arrow_down</mat-icon>
 				</button>
 				<mat-menu #menu="matMenu">
-					<button mat-menu-item *ngIf="authService.hasPermission(authService.permissionEnum.ViewUserProfilePage)"
-					routerLink="/user-profile" [queryParams]="getUserProfileQueryParams()"><mat-icon>person</mat-icon>{{'APP.NAVIGATION.VIEW-PROFILE' | translate}}</button>
+					<!-- <button mat-menu-item *ngIf="authService.hasPermission(authService.permissionEnum.ViewUserProfilePage)"
+					routerLink="/user-profile" [queryParams]="getUserProfileQueryParams()"><mat-icon>person</mat-icon>{{'APP.NAVIGATION.VIEW-PROFILE' | translate}}</button> -->
 					<button mat-menu-item (click)="logout()"><mat-icon>exit_to_app</mat-icon>{{'APP.NAVIGATION.LOGOUT' | translate}}</button>
 				</mat-menu>
 			</div>

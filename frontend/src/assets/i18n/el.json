@@ -32,8 +32,8 @@
 			"TERMS-OF-USE": "Terms of Use",
 			"PRIVACY-POLICY": "Privacy Policy",
 			"VISIT": "Visit",
-			"FACEBOOK-TOOLTIP":"Visit facebook",
-			"TWITTER-TOOLTIP": "Visit twitter"
+			"LINKEDIN-TOOLTIP":"Visit LinkedIn",
+			"TWITTER-TOOLTIP": "Visit X"
 		},
 		"HOME-COMPONENT": {
 			"ABOUT-INTELCOMP": "About intelcomp",
@@ -72,7 +72,7 @@
 				},
 				"NOTIFICATION-SERVICE-EMAIL-CLIENT": {
 					"TITLE": "Mailserver settings",
-					"HINT": "Connect to a mailsever to send emails"
+					"HINT": "Connect to a mailserver to send emails"
 				},
 				"NOTIFICATION-SERVICE-SMS-CLIENT": {
 					"TITLE": "SMS settings",
@@ -173,7 +173,7 @@
 			"BLUEPRINT-REQUEST-STATE": {
 				"ERROR": "Σφάλμα",
 				"COMPLETED": "Ολοκληρώθηκε",
-				"SEND": "Αίτημα απεστάλει"
+				"SEND": "Αίτημα απεστάλη"
 			}
 		},
 		"LANGUAGE-TOKENS":{

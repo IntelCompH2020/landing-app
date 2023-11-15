@@ -32,8 +32,8 @@
 			"TERMS-OF-USE": "Terms of Use",
 			"PRIVACY-POLICY": "Privacy Policy",
 			"VISIT": "Visit",
-			"FACEBOOK-TOOLTIP":"Visit facebook",
-			"TWITTER-TOOLTIP": "Visit twitter"
+			"LINKEDIN-TOOLTIP":"Visit LinkedIn",
+			"TWITTER-TOOLTIP": "Visit X"
 		},
 		"HOME-COMPONENT": {
 			"ABOUT-INTELCOMP": "About intelcomp",
@@ -177,14 +177,18 @@
 		},
 		"LANGUAGE-TOKENS":{
 			"STI-VIEWER": "STI Viewer",
-			"STI-VIEWER-DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et a, autem nesciunt cumque molestiae omnis temporibus saepe reprehenderit debitis consectetur ullam, ut harum laborum explicabo animi, unde ducimus! Nostrum, a!",
-			"DOCUMENT-EXPLORER":"Document Explorer",
-			"DOCUMENT-EXPLORER-DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et a, autem nesciunt cumque molestiae omnis temporibus saepe reprehenderit debitis consectetur ullam, ut harum laborum explicabo animi, unde ducimus! Nostrum, a!",
-			"INTERACTIVE-MODEL-TRAINER": "Interactive model trainer",
-			"INTERACTIVE-MODEL-TRAINER-DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et a, autem nesciunt cumque molestiae omnis temporibus saepe reprehenderit debitis consectetur ullam, ut harum laborum explicabo animi, unde ducimus! Nostrum, a!",
-			"INTELCOMP-DATA-CATALOGUE": "Intelcomp Data Catalogue",
-			"INTELCOMP-DATA-CATALOGUE-DESCRIPTION": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et a, autem nesciunt cumque molestiae omnis temporibus saepe reprehenderit debitis consectetur ullam, ut harum laborum explicabo animi, unde ducimus! Nostrum, a!"
-
+			"STI-VIEWER-DESCRIPTION": "An interactive AI-assisted tool to understand the current STI landscape and visualize its evolution in several domains and countries, observe emerging topics, detect the main players, and learn about the distribution and results of public funding. The target audience of this tool are STI policy analysts who can explore and visualize a comprehensive set of indicators for the agenda setting and the monitoring & evaluation stages of the STI policy cycle.",
+			"INTERACTIVE-MODEL-TRAINER": "Interactive Model Trainer",
+			"INTERACTIVE-MODEL-TRAINER-DESCRIPTION": "This tool is intended for experts in a field. Through a set of interactive services available in the Interactive Model Trainer (IMT), it is possible to incorporate the knowledge of experts in specific domains during model training, thus obtaining higher quality and more interpretable topics. IMT also allows experts to play an active role in the creation and validation of these models. These models are then used by the end-user tools (the STI Viewer, the STI Participation Portal, the Graph Explorer and the Evaluation Workbench). who can customize their analyses, comparisons, and visualizations according to the new models trained in the IMT.",
+			"INTELCOMP-DATA-CATALOGUE": "Intelcomp Catalogue",
+			"INTELCOMP-DATA-CATALOGUE-DESCRIPTION": "The IntelComp Catalogue offers a single store of data collections to be exploited by the IntelComp tools. It allows the processing of a variety of documents, unifying them and enriching the information to obtain improved and more complete results.",
+			"GRAPH-EXPLORER":"Graph Explorer",
+			"GRAPH-EXPLORER-DESCRIPTION": "Graph Explorer is an interactive AI-assisted tool to understand the current STI landscape and its evolution, explore thematic communities, and learn about the thematic distribution and evolution of STI funding. The target audience of this tool are STI policy analysts who can explore large graphs of millions of documents for the agenda setting and the monitoring & evaluation stages of the STI policy cycle. It is a very useful tool when you have a large amount of data to analyze and you need insights at aggregated but also granular levels.",
+			"POLICY-PARTICIPATION-PORTAL":"Policy Participation Portal",
+			"POLICY-PARTICIPATION-PORTAL-DESCRIPTION": "The Participation Portal helps to facilitate the integration of diverse stakeholder input into STI policy-making processes. It offers a user-friendly interface where opinions are collected through surveys enriched with data visualizations from the STI Viewer. This tool fosters a collaborative and transparent policy-making environment ensuring that decisions are not only data-driven but also responsive to societal needs and industry challenges. Academia, Industry, and Citizen representatives are the target audience of this tool.",
+			"EVALUATION-WORKBENCH":"Evaluation Workbench",
+			"EVALUATION-WORKBENCH-DESCRIPTION": "A tool that assists call managers at STI funding agencies in the management of proposals for funding. They can analyze set of proposals and documents, search similar documents, automatically classify the proposals, find suitable reviewers and detect conflicts of interest. Evaluation Workbench makes the evaluation process easier saving time and increasing efficiency. This tool is intended to public administration officials who manage proposals."
+			
 		}
 	},
 	"USER-SERVICE": {

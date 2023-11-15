@@ -14,8 +14,8 @@ export class FooterComponent implements OnInit {
   constructor(private installaticonConfigurationService: InstallationConfigurationService) {
 
     this.footerUrls = {
-      facebook: '#',
       twitter: '#',
+	  linkedin: '#',
       privacyPolicy: '#',
       termsOfUse: '#',
       ...this.installaticonConfigurationService.footerURLS

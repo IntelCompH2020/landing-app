@@ -9,12 +9,16 @@
 	"userSettingsVersion": "1",
 	"idp_service": {
 		"enabled": true,
-		"address": "",
-		"realm": "",
+		"address": "http://dev03.local.cite.gr:60201",
+		"realm": "sti-viewer",
 		"flow": "hybrid",
-		"clientId": "",
+		"clientId": "intelcomp-sti-viewer-dev",
 		"redirectUri": "http://localhost:40000/home",
 		"scope": "openid profile email address phone"
+	},
+	"notification_service": {
+		"enabled": true,
+		"address": "http://dev04.local.cite.gr:50302/"
 	},
 	"app_service": {
 		"enabled": true,
@@ -29,8 +33,8 @@
 		"appName": "coreApp"
 	},
 	"footerUrls":{
-		"twitter":"#",
-		"facebook":"#",
+		"twitter":"https://twitter.com/IntelComp_H2020",
+		"linkedin":"https://www.linkedin.com/groups/12587102",
 		"termsOfUse":"#",
 		"privacyPolicy":"#"
 	},
@@ -39,25 +43,37 @@
 			"title": "APP.LANGUAGE-TOKENS.STI-VIEWER",
 			"description": "APP.LANGUAGE-TOKENS.STI-VIEWER-DESCRIPTION",
 			"img": "../../../assets/images/stiviewer.png",
-			"href":"#"
-		},
-		{
-			"title": "APP.LANGUAGE-TOKENS.DOCUMENT-EXPLORER",
-			"description": "APP.LANGUAGE-TOKENS.DOCUMENT-EXPLORER-DESCRIPTION",
-			"img": "../../../assets/images/documentexplorer.png",
-			"href":"#"
+			"href":"https://sti-viewer.intelcomp.bsc.es/"
 		},
 		{
 			"title": "APP.LANGUAGE-TOKENS.INTERACTIVE-MODEL-TRAINER",
 			"description": "APP.LANGUAGE-TOKENS.INTERACTIVE-MODEL-TRAINER-DESCRIPTION",
 			"img": "../../../assets/images/interactivemodel.png",
-			"href":"#"
+			"href":"https://imt.intelcomp.bsc.es/"
 		},
 		{
 			"title": "APP.LANGUAGE-TOKENS.INTELCOMP-DATA-CATALOGUE",
 			"description": "APP.LANGUAGE-TOKENS.INTELCOMP-DATA-CATALOGUE-DESCRIPTION",
 			"img": "../../../assets/images/datacatalogue.png",
-			"href":"#"
+			"href":"https://catalogue.intelcomp.bsc.es/"
+		},
+		{
+			"title": "APP.LANGUAGE-TOKENS.GRAPH-EXPLORER",
+			"description": "APP.LANGUAGE-TOKENS.GRAPH-EXPLORER-DESCRIPTION",
+			"img": "../../../assets/images/documentexplorer.png",
+			"href":"https://graph-explorer.intelcomp.bsc.es/"
+		},
+		{
+			"title": "APP.LANGUAGE-TOKENS.POLICY-PARTICIPATION-PORTAL",
+			"description": "APP.LANGUAGE-TOKENS.POLICY-PARTICIPATION-PORTAL-DESCRIPTION",
+			"img": "../../../assets/images/ppp.png",
+			"href":"https://ppp.intelcomp.bsc.es/"
+		},
+		{
+			"title": "APP.LANGUAGE-TOKENS.EVALUATION-WORKBENCH",
+			"description": "APP.LANGUAGE-TOKENS.EVALUATION-WORKBENCH-DESCRIPTION",
+			"img": "../../../assets/images/ewb.png",
+			"href":"http://ewb.intelcomp.bsc.es/"
 		}
 	]
 }
