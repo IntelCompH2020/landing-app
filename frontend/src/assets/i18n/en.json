@@ -37,10 +37,10 @@
 		},
 		"HOME-COMPONENT": {
 			"ABOUT-INTELCOMP": "About intelcomp",
-			"ABOUT-INTELCOMP-DESCRIPTION": "IntelComp offers a platform that provides several tools for assisting the whole spectrum of STI policy, i.e., agenda setting, modeling design, implementation, monitoring, and evaluation. It ensures a cooperative environment where you can visualize, interact, and analyze information. IntelComp targets domains aligned with the European Agenda and the Horizon Europe Missions which are three priority areas of Science, Technology, and Innovation (STI) policy:: Artificial Intelligence, Climate Change, and Health.",
+			"ABOUT-INTELCOMP-DESCRIPTION": "IntelComp offers a platform that provides several tools for assisting the whole spectrum of STI policy, i.e., agenda setting, modeling design, implementation, monitoring, and evaluation. It ensures a cooperative environment where you can visualize, interact, and analyze information. IntelComp targets domains aligned with the European Agenda and the Horizon Europe Missions which are three priority areas of Science, Technology, and Innovation (STI) policy: Artificial Intelligence, Climate Change, and Health.",
 			"DATA-ANALYZED":"Data analyzed",
-			"DESCRIPTION-FIRST": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur ratione sed mollitia natus? Iure, dolores, incidunt natus architecto, dolor delectus veniam voluptatem repudiandae omnis ab assumenda tempora fugit ipsam numquam!",
-			"DESCRIPTION-SECOND": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati eligendi, quia nulla exercitationem reiciendis ab saepe! Aperiam reiciendis tempore earum iste placeat quos voluptate in at, incidunt commodi officiis consectetur!",
+			"DESCRIPTION-FIRST": "IntelComp offers a platform that provides several tools for assisting the whole spectrum of STI policy, i.e., agenda setting, modeling design, implementation, monitoring, and evaluation. It ensures a cooperative environment where you can visualize, interact, and analyze information. IntelComp targets domains aligned with the European Agenda and the Horizon Europe Missions which are three priority areas of Science, Technology, and Innovation (STI) policy: Artificial Intelligence, Climate Change, and Health.",
+			"DESCRIPTION-SECOND": "",
 			"SERVICE-CARD":{
 				"VISIT-SERVICE":"Visit service"
 			}
